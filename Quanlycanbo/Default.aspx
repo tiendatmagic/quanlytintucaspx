@@ -6,7 +6,7 @@
     <h1 class="animate__animated animate__flip text-center text-danger">WELCOME TO TIENDATMAGIC</h1>
     <div class="container-fluid">
     <p> Bảng danh sách Tin tức </p>
-    <div class="table-responsive">
+    <div class="table-responsive animate__animated animate__backInLeft">
 
     <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="TIN_ID,TGIA_ID" DataSourceID="SqlDataSource1" EmptyDataText="There are no data records to display." CssClass="table table table-bordered text-black" AllowPaging="True" AllowSorting="True">
         <Columns>
@@ -21,7 +21,7 @@
     </asp:SqlDataSource>
 
         <p> Bảng danh sách Tác giả </p>
-        <div class="table-responsive">
+        <div class="table-responsive animate__animated animate__backInRight">
         <asp:GridView ID="GridView2" runat="server" AutoGenerateColumns="False" DataKeyNames="TGIA_ID" DataSourceID="SqlDataSource2" EmptyDataText="There are no data records to display." CssClass="table table table-bordered text-black" AllowPaging="True" AllowSorting="True">
             <Columns>
                 <asp:BoundField DataField="TGIA_ID" HeaderText="Tác giả ID" ReadOnly="True" SortExpression="TGIA_ID" />
@@ -34,7 +34,7 @@
         </asp:SqlDataSource>
 
     <p> Bảng danh sách Chủ đề</p>
-    <div class="table-responsive">
+    <div class="table-responsive animate__animated animate__heartBeat">
         <asp:GridView ID="GridView3" runat="server" AutoGenerateColumns="False" DataKeyNames="CHUDE_ID" DataSourceID="SqlDataSource3" EmptyDataText="There are no data records to display." CssClass="table table table-bordered text-black" AllowPaging="True" AllowSorting="True">
             <Columns>
                 <asp:BoundField DataField="CHUDE_ID" HeaderText="CHUDE_ID" ReadOnly="True" SortExpression="CHUDE_ID" />
