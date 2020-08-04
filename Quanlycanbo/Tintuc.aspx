@@ -7,10 +7,10 @@
     <div class="table-responsive">
         <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="TIN_ID,TGIA_ID" DataSourceID="SqlDataSource1" CssClass="table table table-bordered text-black" AllowPaging="True" AllowSorting="True">
             <Columns>
-                <asp:BoundField DataField="TIN_ID" HeaderText="TIN_ID" ReadOnly="True" SortExpression="TIN_ID" />
-                <asp:BoundField DataField="NOIDUNG" HeaderText="NOIDUNG" SortExpression="NOIDUNG" />
-                <asp:BoundField DataField="NGAYGUI" HeaderText="NGAYGUI" SortExpression="NGAYGUI" />
-                <asp:BoundField DataField="TGIA_ID" HeaderText="TGIA_ID" ReadOnly="True" SortExpression="TGIA_ID" />
+                <asp:BoundField DataField="TIN_ID" HeaderText="Tin ID" ReadOnly="True" SortExpression="TIN_ID" />
+                <asp:BoundField DataField="NOIDUNG" HeaderText="Nội dung" SortExpression="NOIDUNG" />
+                <asp:BoundField DataField="NGAYGUI" HeaderText="Ngày gửi" SortExpression="NGAYGUI" />
+                <asp:BoundField DataField="TGIA_ID" HeaderText="Tác giả ID" ReadOnly="True" SortExpression="TGIA_ID" />
                 <asp:CommandField HeaderText="Danh mục lựa chọn" SelectText="Chọn" ShowSelectButton="True" />
             </Columns>
         </asp:GridView>

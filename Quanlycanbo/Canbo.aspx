@@ -5,10 +5,10 @@
         <div class="container-fluid">
     <p> Bảng danh sách Cán bộ</p>
     <div class="table-responsive">
-    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="CHUDE_ID" DataSourceID="SqlDataSource1" CssClass="table table table-bordered">
+    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="CHUDE_ID" DataSourceID="SqlDataSource1" CssClass="table table table-bordered" AllowPaging="True" AllowSorting="True">
         <Columns>
-            <asp:BoundField DataField="CHUDE_ID" HeaderText="CHUDE_ID" ReadOnly="True" SortExpression="CHUDE_ID" />
-            <asp:BoundField DataField="TENCD" HeaderText="TENCD" SortExpression="TENCD" />
+            <asp:BoundField DataField="CHUDE_ID" HeaderText="Chủ đề ID" ReadOnly="True" SortExpression="CHUDE_ID" />
+            <asp:BoundField DataField="TENCD" HeaderText="Tên chủ đề" SortExpression="TENCD" />
             <asp:CommandField ShowSelectButton="True" HeaderText="Danh mục lựa chọn" SelectText="Chọn" />
         </Columns>
     </asp:GridView>

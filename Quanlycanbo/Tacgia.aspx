@@ -8,9 +8,9 @@
 
     <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="TGIA_ID" DataSourceID="SqlDataSource1" EmptyDataText="There are no data records to display." AllowSorting="True" CssClass="table table table-bordered" AllowPaging="True">
         <Columns>
-            <asp:BoundField DataField="TGIA_ID" HeaderText="TGIA_ID" ReadOnly="True" SortExpression="TGIA_ID" />
-            <asp:BoundField DataField="TENTG" HeaderText="TENTG" SortExpression="TENTG" />
-            <asp:BoundField DataField="EMAIL" HeaderText="EMAIL" SortExpression="EMAIL" />
+            <asp:BoundField DataField="TGIA_ID" HeaderText="Tác giả ID" ReadOnly="True" SortExpression="TGIA_ID" />
+            <asp:BoundField DataField="TENTG" HeaderText="Tên tác giả" SortExpression="TENTG" />
+            <asp:BoundField DataField="EMAIL" HeaderText="Email" SortExpression="EMAIL" />
             <asp:CommandField HeaderText="Danh mục lựa chọn" SelectText="Chọn" ShowSelectButton="True" />
         </Columns>
     </asp:GridView>
