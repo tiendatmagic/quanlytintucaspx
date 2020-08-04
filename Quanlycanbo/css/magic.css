@@ -26,6 +26,10 @@ a {
     background-color: hotpink !important;
 }
 
+#ContentPlaceHolder1_GridView3 > tbody > tr:nth-child(1) {
+    background-color: hotpink !important;
+}
+
     #ContentPlaceHolder1_GridView1 > tbody > tr:nth-child(1) a:hover {
         color: red !important;
     }
@@ -35,6 +39,10 @@ a {
 }
 
 #ContentPlaceHolder1_GridView2 * {
+    border-color: rgb(255,6,220) !important;
+}
+
+#ContentPlaceHolder1_GridView3 * {
     border-color: rgb(255,6,220) !important;
 }
 
