@@ -4,7 +4,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
         <div class="container-fluid">
     <p> Bảng danh sách Chủ đề</p>
-    <div class="table-responsive">
+    <div class="table-responsive animate__animated animate__backInLeft">
     <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="CHUDE_ID" DataSourceID="SqlDataSource1" CssClass="table table table-bordered" AllowPaging="True" AllowSorting="True">
         <Columns>
             <asp:BoundField DataField="CHUDE_ID" HeaderText="Chủ đề ID" ReadOnly="True" SortExpression="CHUDE_ID" />

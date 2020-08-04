@@ -4,7 +4,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="container-fluid">
     <p> Bảng quản trị danh sách Tin tức </p>
-    <div class="table-responsive">
+    <div class="table-responsive animate__animated animate__backInLeft">
         <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="TIN_ID,TGIA_ID" DataSourceID="SqlDataSource1" CssClass="table table table-bordered text-black" AllowPaging="True" AllowSorting="True">
             <Columns>
                 <asp:BoundField DataField="TIN_ID" HeaderText="Tin ID" ReadOnly="True" SortExpression="TIN_ID" />
