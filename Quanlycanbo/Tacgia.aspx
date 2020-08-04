@@ -3,7 +3,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="container-fluid">
-    <p> Bảng danh sách Cán bộ</p>
+    <p> Bảng danh sách Tác giả</p>
     <div class="table-responsive">
 
     <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="TGIA_ID" DataSourceID="SqlDataSource1" EmptyDataText="There are no data records to display." AllowSorting="True" CssClass="table table table-bordered" AllowPaging="True">
