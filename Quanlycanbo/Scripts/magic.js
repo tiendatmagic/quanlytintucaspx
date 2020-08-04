@@ -9,7 +9,7 @@
     $("input").addClass("form-control");
     //$("#ContentPlaceHolder1_DetailsView1 > tbody > tr:nth-child(1) > td:nth-child(1)").text("Phòng ban ID");
     //$("#ContentPlaceHolder1_DetailsView1 > tbody > tr:nth-child(2) > td:nth-child(1)").text("Tên phòng ban");
-
+    alert("© 2020 Copyright by Tiendatmagic");
     /*
     $("#ContentPlaceHolder1_DetailsView2 > tbody > tr:nth-child(1) > td:nth-child(1)").text("Cán bộ ID");
     $("#ContentPlaceHolder1_DetailsView2 > tbody > tr:nth-child(2) > td:nth-child(1)").text("Phòng ban ID");
