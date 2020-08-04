@@ -7,9 +7,10 @@
     $("#ContentPlaceHolder1_DetailsView2 tr:even").css("backgroundColor", "rgb(253,225,230)");
 
     $("input").addClass("form-control");
-    $("#ContentPlaceHolder1_DetailsView1 > tbody > tr:nth-child(1) > td:nth-child(1)").text("Phòng ban ID");
-    $("#ContentPlaceHolder1_DetailsView1 > tbody > tr:nth-child(2) > td:nth-child(1)").text("Tên phòng ban");
+    //$("#ContentPlaceHolder1_DetailsView1 > tbody > tr:nth-child(1) > td:nth-child(1)").text("Phòng ban ID");
+    //$("#ContentPlaceHolder1_DetailsView1 > tbody > tr:nth-child(2) > td:nth-child(1)").text("Tên phòng ban");
 
+    /*
     $("#ContentPlaceHolder1_DetailsView2 > tbody > tr:nth-child(1) > td:nth-child(1)").text("Cán bộ ID");
     $("#ContentPlaceHolder1_DetailsView2 > tbody > tr:nth-child(2) > td:nth-child(1)").text("Phòng ban ID");
     $("#ContentPlaceHolder1_DetailsView2 > tbody > tr:nth-child(3) > td:nth-child(1)").text("Chức vụ ID");
@@ -21,6 +22,6 @@
     $("#ContentPlaceHolder1_DetailsView2 > tbody > tr:nth-child(9) > td:nth-child(1)").text("Vào công đoàn");
     $("#ContentPlaceHolder1_DetailsView2 > tbody > tr:nth-child(10) > td:nth-child(1)").text("Ảnh");
     $("#ContentPlaceHolder1_DetailsView2 > tbody > tr:nth-child(11) > td:nth-child(1)").text("Ghi chú");
-
+    */
 });
 //alert("© 2020 Copyright by Tiendatmagic");

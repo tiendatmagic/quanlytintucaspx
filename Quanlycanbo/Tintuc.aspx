@@ -5,7 +5,7 @@
     <div class="container-fluid">
     <p> Bảng quản trị danh sách Phòng ban </p>
     <div class="table-responsive">
-        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="TIN_ID,TGIA_ID" DataSourceID="SqlDataSource1" CssClass="table table table-bordered text-black">
+        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="TIN_ID,TGIA_ID" DataSourceID="SqlDataSource1" CssClass="table table table-bordered text-black" AllowPaging="True" AllowSorting="True">
             <Columns>
                 <asp:BoundField DataField="TIN_ID" HeaderText="TIN_ID" ReadOnly="True" SortExpression="TIN_ID" />
                 <asp:BoundField DataField="NOIDUNG" HeaderText="NOIDUNG" SortExpression="NOIDUNG" />
