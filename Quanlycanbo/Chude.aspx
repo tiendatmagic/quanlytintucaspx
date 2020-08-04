@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Magic.Master" AutoEventWireup="true" CodeBehind="Canbo.aspx.cs" Inherits="Quanlycanbo.Canbo1" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Magic.Master" AutoEventWireup="true" CodeBehind="Chude.aspx.cs" Inherits="Quanlycanbo.Canbo1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -15,7 +15,7 @@
     </div>
     <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:tintucConnectionString %>" SelectCommand="SELECT * FROM [CHUDE]"></asp:SqlDataSource>
     
-            <asp:DetailsView ID="DetailsView1" runat="server" Height="50px" Width="125px" AllowPaging="True" AutoGenerateRows="False" DataKeyNames="CHUDE_ID" DataSourceID="SqlDataSource2" CssClass="table table table-bordered text-black">
+            <asp:DetailsView ID="DetailsView3" runat="server" Height="50px" Width="125px" AllowPaging="True" AutoGenerateRows="False" DataKeyNames="CHUDE_ID" DataSourceID="SqlDataSource2" CssClass="table table table-bordered text-black" OnItemDeleted="DetailsView3_ItemDeleted" OnItemInserted="DetailsView3_ItemInserted" OnItemUpdated="DetailsView3_ItemUpdated">
                 <Fields>
                     <asp:BoundField DataField="CHUDE_ID" HeaderText="CHUDE_ID" ReadOnly="True" SortExpression="CHUDE_ID" />
                     <asp:BoundField DataField="TENCD" HeaderText="TENCD" SortExpression="TENCD" />

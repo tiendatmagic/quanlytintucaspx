@@ -54,6 +54,10 @@ a {
     border-color: rgb(255,6,220) !important;
 }
 
+#ContentPlaceHolder1_DetailsView3 td {
+    border-color: rgb(255,6,220) !important;
+}
+
 table a {
     color: black;
 }
@@ -76,7 +80,7 @@ input[type='text'] {
 }
 
 
-#ContentPlaceHolder1_DetailsView1 , #ContentPlaceHolder1_DetailsView2 {
+#ContentPlaceHolder1_DetailsView1, #ContentPlaceHolder1_DetailsView2, #ContentPlaceHolder1_DetailsView3 {
     width: 30% !important;
 }
 
